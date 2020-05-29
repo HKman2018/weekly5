@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0f62aa162d.js" crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="side">
+        <h1 class="logo mb-32"><a href="">answer</a></h1>
+        <div class="d-flex flex-column justify-content-between">
+          <ul class="sidebar">
+            <li><a class="d-flex" href=""> <span class="material-icons">assignment</span>
+                <p>Dashboard</p></a></li>
+            <li><a class="d-flex" href=""> <span class="material-icons">forum</span>
+                <p>Question</p></a></li>
+            <li><a class="d-flex" href=""> <span class="material-icons">assignment</span>
+                <p>Assignment</p></a></li>
+            <li><a class="d-flex" href=""> <span class="material-icons">video_library</span>
+                <p>Course</p></a></li>
+            <li><a class="d-flex" href=""> <span class="material-icons">group</span>
+                <p>Admin</p></a></li>
+            <li><a class="d-flex" href=""> <span class="material-icons">settings</span>
+                <p>Settings</p></a></li>
+          </ul>
+          <div class="userName ml-32 mb-32">
+            <div class="media"><img class="mr-3" src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=80" alt="..."/>
+              <div class="media-body">
+                <h5 class="mt-0">Andy Chen</h5>andy0401@mail.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="searchBar mb-46">
+          <div class="row">
+            <div class="courses col-6">
+              <div class="d-flex ml-32 mt-32">
+                <h2>Assignment</h2>
+                <div class="dropdown d-flex ml-46 mt-2"><a id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Courses </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div><i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+            </div>
+            <div class="searchTool col-6">
+              <div class="text-right ml-32 mt-32"> <span class="material-icons">search</span><span class="material-icons mr-32">notifications_active</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="remark">
+          <div class="row">
+            <div class="col-6">
+              <div class="dropdown d-flex ml-32"><a id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All (4)</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div><i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="col-6 remark-comm">
+              <div class="text-right mr-32">
+                <p>2 comments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard ml-32 mr-32">
+          <div class="row">
+            <div class="col-5">
+              <div class="list-group board-l-side"><a class="list-group-item pb-6 active" type="button">
+                  <div class="d-flex justify-content-between">
+                    <p>Chapter Assignment 2</p>
+                    <p>4 hrs ago </p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <h3>Please check this file…</h3>
+                    <h2>Emily Wang</h2>
+                  </div></a><a class="list-group-item pb-6" type="button">
+                  <div class="d-flex justify-content-between">
+                    <p>Chapter Assignment 1</p>
+                    <p>12 hrs ago</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <h3>My Homework</h3>
+                    <h2> David Xu</h2>
+                  </div></a><a class="list-group-item pb-6" type="button">
+                  <div class="d-flex justify-content-between">
+                    <p>Final Assignment</p>
+                    <p>18 hrs ago</p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <h3>Have a problem with this…</h3>
+                    <h2>Tony Wei</h2>
+                  </div></a><a class="list-group-item pb-6" type="button">
+                  <div class="d-flex justify-content-between">
+                    <p>Final Assignment</p>
+                    <p>19 hrs ago </p>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <h3>Did I do it right?</h3>
+                    <h2>Christina Lin</h2>
+                  </div></a></div>
+            </div>
+            <div class="col-7 pl-0 position-relative">
+              <div class="card card-border-lightgreen">
+                <div class="card-header message-board">
+                  <div class="d-flex justify-content-between">
+                    <h3>Chapter Assignment 2 / HTML&CSS<br/><span>Please check this file for me, thanks!</span></h3><i class="fas fa-ellipsis-v"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="media"><img class="mr-3" src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=80" alt="..."/>
+                    <div class="media-body respond-board border-bottom border-info">
+                      <h5 class="mt-0">Emily Wang</h5>
+                      <p>10:38 AM (4 hours ago)   </p>
+                      <p class="mt-16 mr-32">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code>div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<span> <br/>What is the gap or extra space below image?</span></p><a class="btn btn-info messageBtn"><img src="./images/baseline.png"/>HW-2-David.zip</a>
+                    </div>
+                  </div>
+                  <div class="media mt-16"><img class="mr-3" src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=80" alt="..."/>
+                    <div class="media-body respond-board-reply">
+                      <div class="d-flex justify-content-between">
+                        <div class="nameForReply">
+                          <h5 class="mt-0">Andy Chen (You)</h5>
+                          <p>13:24 AM (1 hours ago)</p>
+                        </div>
+                        <div class="editForReply d-flex"><span class="material-icons">star_border</span><span class="material-icons">edit</span></div>
+                      </div>
+                      <p class="mt-16 mr-32">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. </p>
+                      <p>You can: </p><span class="reply-choice">• adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the <code>middle</code> ) or </span><span class="reply-choice"><br/>• change the <code>display</code> so it isn’t inline.     </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-16">
+                <div class="frontBackPages d-flex"><span class="material-icons">chevron_left</span><span class="material-icons ml-24">chevron_right</span></div>
+                <div class="replyBtn"><a class="btn markBtn">Mark as read</a><a class="btn replyForBtn">Reply</a></div>
+              </div>
+              <div class="card card-border-lightgreen writeBoard">
+                <div class="card-header">
+                  <ul>
+                    <li><span>Body Text</span></li>
+                    <li><span class="material-icons arrow">arrow_drop_down</span></li>
+                    <li><span class="icon-B">B</span></li>
+                    <li><span class="icon-i">I</span></li>
+                    <li><span class="material-icons">format_list_bulleted</span></li>
+                    <li><span class="material-icons">format_list_numbered</span></li>
+                    <li><span class="material-icons">insert_photo</span></li>
+                    <li><span class="material-icons">insert_link</span></li>
+                    <li><span class="material-icons">code</span></li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <p>Reply an answer…</p>
+                  <div class="activeReply text-right"><a class="btn cancelBtn">Cancel</a><a class="btn replyActiveBtn">Reply</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
+  </body>
+</html>
