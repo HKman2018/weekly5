@@ -7303,6 +7303,9 @@ code {
   height: 24px;
   color: #2A8356; }
 
+#dropdownMenuButton {
+  cursor: pointer; }
+
 .searchTool span {
   margin-left: 26px;
   display: inline-block; }
@@ -7370,6 +7373,11 @@ code {
 
 .frontBackPages {
   margin-top: 7px; }
+  .frontBackPages a {
+    display: inline-block;
+    cursor: pointer; }
+    .frontBackPages a:hover {
+      opacity: 0.45; }
 
 .replyBtn .markBtn {
   margin-right: 16px;
