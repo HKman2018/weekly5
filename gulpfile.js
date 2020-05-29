@@ -50,7 +50,7 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 gulp.task('jquery', function() {
-    return gulp.src('bower_components/jquery/dist/jquery.min.js')
+    return gulp.src(['bower_components/jquery/dist/jquery.min.js'])
         .pipe($.uglify())
         .pipe($.sourcemaps.write('.'))
         .pipe(gulp.dest('./public/js'))
